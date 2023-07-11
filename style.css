@@ -8,6 +8,195 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+.m-head {
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    background: url(./img/background.jpg);
+}
+.m-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.m-logo {
+}
+.m-netflix {
+    width: 200px;
+}
+/*-------------------------MODALKA---------------------------- */
+.modal-conten{
+    width: 300px;
+    height: 200px;
+    background-color: #000000;
+}
+label{
+    color: #fff;
+}
+.btn-close{
+    background: url(./img/Arrow.png);
+}
+.modal-content{
+    background-color: black;
+}
+.modal-header{
+    background-color: black;
+    color: #fff;
+    border-bottom: 1px solid #323232;
+
+}
+.form-control{
+    background-color: #645a5a;
+    border: none;
+
+}
+.form-floating>.form-control, .form-floating>.form-control-plaintext, .form-floating>.form-select{
+    color: #fff;
+}
+.modal-body {
+    background-color: black;
+    
+}
+.btn-primary {
+    margin-left: 20px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid #ff0000;
+}
+.btn-primary:hover{
+    background-color: #d42222;
+    border: 1px solid #d42222;
+}
+.btn-primary:active{
+    background-color: #b82e2e;
+}
+.m-speak {
+    display: flex;
+}
+.form-select{
+    position: relative;
+    backdrop-filter: blur(20px);
+    width: 200px;
+}
+.login-button.btn {
+    background: #e50914;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px auto;
+}
+.login-button.btn:active{
+    font-size: 20px;
+    background-color: chartreuse;
+}
+.action-button, .btn-blue, .btn-submit {
+    
+    box-shadow: 0 1px 0 rgb(0 0 0 / 55%);
+    color: #fff;
+}
+.m-checkbox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-check-input{
+    background-color: #737373;
+}
+.form-check-label{
+    color: #737373;
+}
+.form-check{
+    background-color: #000000;
+    color: #737373;
+    margin-left: 20px;
+}
+.login-help-link {
+    margin-right: 20px;
+    background-color: #000000;
+    color: #737373;
+}
+.link {
+}
+.m-login-now {
+    display: flex;
+    margin-left: 20px;
+}
+.m-text-login-now {
+    color: #737373;
+    margin-right: 5px;
+}
+.m-link-now {
+    color: #fff;
+    font-size: 16px;
+}
+.m-text-modal {
+    color: #737373;
+    margin-left: 20px;
+}
+.m-recaptcha {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+/* ----------------------CENTER -------------------- */
+.m-center {
+    margin: 100px auto;
+    color: #fff;
+    text-align: center;
+}
+.m-text-center {
+    font-size: 32px;
+    font-weight: bold;
+}
+.m-pidtext-center {
+    font-size: 28px;
+
+}
+.m-forma {
+    display: flex;
+    justify-content: center;
+}
+.m-formas{
+    width: 400px;
+    background: transparent;
+    border: 1px solid #5f4a4a;
+    background: none;
+}
+.m-label{
+    
+    color: #737373;
+}
+.mb-3 {
+}
+.form-control {
+}
+.e1ax5wel1 {
+    background-color: #d60a0a;
+    margin-left: 20px;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.default-ltr-cache-f1k880 {
+    
+}
+.default-ltr-cache-17uj5h {
+    
+}
+.e1ax5wel0 {
+}
+.default-ltr-cache-s15e62 {
+}
+.e1boxt2d0 {
+}
+.default-ltr-cache-0 {
+}
+.e1mhci4z1 {
+}
 body{
     background-color: rgb(0, 0, 0);
 }

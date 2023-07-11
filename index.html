@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kaushan+Script&family=Manrope:wght@800&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@1&family=Poppins:ital,wght@1,400;1,600&family=Roboto+Mono:ital,wght@1,500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
 <<<<<<< <!-- Muroslav..........................................Drogo -->
@@ -18,10 +19,10 @@
                 <img class="m-netflix" src="./img/logo.png" alt="eroor">
             </div>
             <div class="m-speak">
+                
                 <select class="form-select" aria-label="Default select example">
-                    <option selected>Мова</option>
-                    <option value="1">Українська</option>
-                    <option value="2">English</option>
+                    <option selected>Українська</option>
+                    <option value="1">English</option>
                 </select>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -33,20 +34,51 @@
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Увійти</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        ...
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Адреса електроної пошти або номер телефону</label>
+                              </div>
+                              <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Пароль</label>
+                              </div>
+                              <button class="btn login-button btn-submit btn-small" type="submit" autocomplete="off" tabindex="0" data-uia="login-submit-button">Увійти</button>
                         </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
+                        <div class="m-checkbox">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                    Запам'ятати мене
+                                </label>
+                            </div>
+                            <a class="login-help-link link" target="_self" data-uia="login-help-link" href="/LoginHelp">Потрібна допомога?</a>
                         </div>
+                        <div class="m-login-now">
+                            <p class="m-text-login-now">Уперше на NETFLIX?</p>
+                            <a class="m-link-now" href="">Зареєструватися.</a>
+                        </div>
+                        <p class="m-text-modal">Щоб переконатися, що ви не бот, сторінка захищена <br> системою Google reCAPTCHA</p>
+                        <a href="" class="m-recaptcha">Докладніше.</a>
                     </div>
                     </div>
                 </div>
             </div>
+            
+        </div>
+        <div class="m-center">
+            <p class="m-text-center">Фільми, серіали й інший контент без обмежень</p>
+            <p class="m-pidtext-center">Дивитися всюди. Скасувати будь-коли Починаємо дивитися? Введіть <br> адресу електронної пошти, щоб створити або поновити обліковий запис.</p>
+        </div>
+        <div class="m-forma">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control m-formas" id="floatingInput" placeholder="name@example.com">
+                <label class="m-label" for="floatingInput">Email address</label>
+            </div>
+            <button role="button" class=" e1ax5wel1 default-ltr-cache-f1k880" data-uia="nmhp-card-cta+hero_fuji" type="submit">Почати<div aria-hidden="true" class="default-ltr-cache-17uj5h e1ax5wel0"><span dir="ltr" class="default-ltr-cache-s15e62 e1boxt2d0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="default-ltr-cache-0 e1mhci4z1" data-name="ChevronRight" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.29297 19.2928L14.5859 12L7.29297 4.70706L8.70718 3.29285L16.7072 11.2928C16.8947 11.4804 17.0001 11.7347 17.0001 12C17.0001 12.2652 16.8947 12.5195 16.7072 12.7071L8.70718 20.7071L7.29297 19.2928Z" fill="currentColor"></path></svg></span></div></button>
         </div>
     </div>
 

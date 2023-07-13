@@ -302,6 +302,11 @@ body{
 .ph_slider-box2{
     display: none;
 }
+.ph_carusel-img2{
+    background-size: cover;
+    width: 600px;
+    margin-left: -50px;
+}
 /* Danil.............GUL */
 @media (max-width: 1199px) { 
     /* Danil.............GUL */

@@ -549,3 +549,60 @@ body{
     }
     /* Danil.............GUL */
 }
+.D__footer__body{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.D__lower__part__left{
+    border: 1px solid #f8f7f7
+}
+.D__lower__part__center{
+    border: 1px solid #f5f4f4;
+}
+.D__lower__part__right{
+    border: 1px solid #fcfcfc;
+}
+.D__lower__number{
+    color: aliceblue;
+}
+.D__footer__Netflix{
+    color: aliceblue;
+}
+.D__box__select { 
+    width: 150px; 
+    height: 32px; 
+    padding: 0 10px; 
+    border-radius: 4px; 
+    border: 1px solid #3a3737; 
+    background-color: #32323281; 
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+
+.D__globe{ 
+    width: 20px; 
+} 
+.form-select { 
+    background-color: transparent; 
+    color: #fff; 
+    padding: 0 10px; 
+    border: 0; 
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background-image: url(./img/chevron-down-solid.svg); 
+    background-position: right center; 
+    background-repeat: no-repeat; 
+    padding-right: 20px; 
+} 
+.D__box__select:focus-within{ 
+    outline: 2px solid #ffffff; 
+} 
+.form-select:focus{ 
+    box-shadow: none; 
+    outline: none; 
+}

@@ -551,20 +551,23 @@ body{
 }
 .D__footer__body{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: aliceblue;
     margin-top: 50px;
+    margin-right: 283px;
 }
 .D__lower__part__left{
-    border: 1px solid #f8f7f7
+
 }
 .D__lower__part__center{
-    border: 1px solid #f5f4f4;
+
 }
 .D__lower__part__right{
-    border: 1px solid #fcfcfc;
+
 }
 .D__lower__number{
+    margin-top: 40px;
+    padding-left: 138px;
     color: aliceblue;
 }
 .D__footer__Netflix{
@@ -605,4 +608,11 @@ body{
 .form-select:focus{ 
     box-shadow: none; 
     outline: none; 
+}
+.D__box__select{
+    margin-left: 130px;
+}
+.D__footer__Netflix{
+    margin-left: 130px;
+    padding: 8px;
 }
